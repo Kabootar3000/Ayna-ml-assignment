@@ -164,5 +164,3 @@ prediction = predict_colorized_polygon(model, input_image, 'red', device)
 
 **Note:**  
 This implementation focuses on a clean, well-documented solution that demonstrates understanding of conditional image generation, UNet architecture, and proper ML practices including experiment tracking and# Ayna-ml-assignment
-
-# Ayna-ml-assignment
