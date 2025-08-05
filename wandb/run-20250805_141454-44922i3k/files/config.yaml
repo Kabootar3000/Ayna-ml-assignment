@@ -1,0 +1,51 @@
+_wandb:
+    value:
+        cli_version: 0.21.0
+        e:
+            c9mz57kxblm967fk5xqxws6gxclswkls:
+                codePath: train.py
+                codePathLocal: train.py
+                cpu_count: 4
+                cpu_count_logical: 8
+                disk:
+                    /:
+                        total: "511009148928"
+                        used: "277878288384"
+                email: adityawork2004@gmail.com
+                executable: C:\Users\ADITYA\AppData\Local\Programs\Python\Python313\python.exe
+                host: Kabootar
+                memory:
+                    total: "8262488064"
+                os: Windows-11-10.0.26100-SP0
+                program: C:\Users\ADITYA\Desktop\Ml-assignment\train.py
+                python: CPython 3.13.1
+                root: C:\Users\ADITYA\Desktop\Ml-assignment
+                startedAt: "2025-08-05T08:44:54.624951Z"
+                writerId: c9mz57kxblm967fk5xqxws6gxclswkls
+        m: []
+        python_version: 3.13.1
+        t:
+            "1":
+                - 1
+                - 41
+            "2":
+                - 1
+                - 41
+            "3":
+                - 16
+            "4": 3.13.1
+            "5": 0.21.0
+            "8":
+                - 3
+            "12": 0.21.0
+            "13": windows-amd64
+batch_size:
+    value: 8
+device:
+    value: cpu
+epochs:
+    value: 100
+image_size:
+    value: 128
+learning_rate:
+    value: 0.0001

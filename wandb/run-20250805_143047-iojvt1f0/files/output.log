@@ -1,0 +1,80 @@
+Epoch 0:   0%|                           | 0/7 [00:00<?, ?it/s]C:\Users\ADITYA\AppData\Local\Programs\Python\Python313\Lib\site-packages\torch\utils\data\dataloader.py:665: UserWarning: 'pin_memory' argument is set as true but no accelerator is found, then device pinned memory won't be used.
+  warnings.warn(warn_msg)
+Epoch 0: 100%|███████████████████| 7/7 [01:12<00:00, 10.36s/it]
+Epoch 0: Train Loss: 0.7745, Val Loss: 0.8921
+Epoch 1: 100%|███████████████████| 7/7 [01:09<00:00,  9.86s/it]
+Epoch 1: Train Loss: 0.4411, Val Loss: 0.9141
+Epoch 2: 100%|███████████████████| 7/7 [00:54<00:00,  7.73s/it]
+Epoch 2: Train Loss: 0.1351, Val Loss: 0.9351
+Epoch 3: 100%|███████████████████| 7/7 [00:55<00:00,  7.90s/it]
+Epoch 3: Train Loss: -0.2547, Val Loss: 0.9266
+Epoch 4: 100%|███████████████████| 7/7 [01:06<00:00,  9.48s/it]
+Epoch 4: Train Loss: -0.4336, Val Loss: 0.9041
+Epoch 5: 100%|███████████████████| 7/7 [00:52<00:00,  7.45s/it]
+Epoch 5: Train Loss: -0.7324, Val Loss: 0.7465
+Epoch 6: 100%|███████████████████| 7/7 [00:58<00:00,  8.34s/it]
+Epoch 6: Train Loss: -0.6754, Val Loss: 0.4579
+Epoch 7: 100%|███████████████████| 7/7 [01:03<00:00,  9.09s/it]
+Epoch 7: Train Loss: -1.0443, Val Loss: 0.3306
+Epoch 8: 100%|███████████████████| 7/7 [01:06<00:00,  9.50s/it]
+Epoch 8: Train Loss: -1.1212, Val Loss: 0.3932
+Epoch 9: 100%|███████████████████| 7/7 [01:01<00:00,  8.79s/it]
+Epoch 9: Train Loss: -0.9988, Val Loss: 0.1813
+Epoch 10: 100%|██████████████████| 7/7 [01:09<00:00, 10.00s/it]
+Epoch 10: Train Loss: -1.2144, Val Loss: 0.2064
+Epoch 11: 100%|██████████████████| 7/7 [01:05<00:00,  9.41s/it]
+Epoch 11: Train Loss: -1.2026, Val Loss: 0.0863
+Epoch 12: 100%|██████████████████| 7/7 [01:06<00:00,  9.44s/it]
+Epoch 12: Train Loss: -1.3456, Val Loss: 0.3174
+Epoch 13: 100%|██████████████████| 7/7 [00:57<00:00,  8.15s/it]
+Epoch 13: Train Loss: -1.3874, Val Loss: 0.0419
+Epoch 14: 100%|██████████████████| 7/7 [00:54<00:00,  7.82s/it]
+Epoch 14: Train Loss: -1.4116, Val Loss: 0.0772
+Epoch 15: 100%|██████████████████| 7/7 [00:53<00:00,  7.66s/it]
+Epoch 15: Train Loss: -1.6251, Val Loss: 0.0868
+Epoch 16: 100%|██████████████████| 7/7 [00:53<00:00,  7.62s/it]
+Epoch 16: Train Loss: -1.6877, Val Loss: 0.1486
+Epoch 17: 100%|██████████████████| 7/7 [00:52<00:00,  7.56s/it]
+Epoch 17: Train Loss: -1.6711, Val Loss: 0.1165
+Epoch 18: 100%|██████████████████| 7/7 [00:58<00:00,  8.38s/it]
+Epoch 18: Train Loss: -1.6003, Val Loss: 0.0004
+Epoch 19: 100%|██████████████████| 7/7 [00:55<00:00,  7.94s/it]
+Epoch 19: Train Loss: -1.6394, Val Loss: -0.0012
+Epoch 20: 100%|██████████████████| 7/7 [00:52<00:00,  7.57s/it]
+Epoch 20: Train Loss: -1.6496, Val Loss: 0.2251
+Epoch 21: 100%|██████████████████| 7/7 [00:53<00:00,  7.60s/it]
+Epoch 21: Train Loss: -1.7956, Val Loss: 0.1768
+Epoch 22: 100%|██████████████████| 7/7 [00:58<00:00,  8.36s/it]
+Epoch 22: Train Loss: -1.7740, Val Loss: -0.1591
+Epoch 23: 100%|██████████████████| 7/7 [01:04<00:00,  9.16s/it]
+Epoch 23: Train Loss: -1.7505, Val Loss: 0.0802
+Epoch 24: 100%|██| 7/7 [02:00<00:00, 17.17s/it]
+Epoch 24: Train Loss: -1.6499, Val Loss: -0.0036
+Epoch 25: 100%|██████████████████| 7/7 [01:18<00:00, 11.27s/it]
+Epoch 25: Train Loss: -2.0471, Val Loss: 0.0560
+Epoch 26: 100%|██████████████████| 7/7 [01:17<00:00, 11.08s/it]
+Epoch 26: Train Loss: -1.8090, Val Loss: 0.0586
+Epoch 27: 100%|██████████████████| 7/7 [01:28<00:00, 12.70s/it]
+Epoch 27: Train Loss: -2.0940, Val Loss: 0.2677
+Epoch 28: 100%|██████████████████| 7/7 [01:15<00:00, 10.81s/it]
+Epoch 28: Train Loss: -2.2369, Val Loss: 0.2161
+Epoch 29: 100%|██████████████████| 7/7 [01:29<00:00, 12.85s/it]
+Epoch 29: Train Loss: -1.9786, Val Loss: 0.1138
+Epoch 30: 100%|██| 7/7 [02:05<00:00, 17.93s/it]
+Epoch 30: Train Loss: -1.9014, Val Loss: 0.0590
+Epoch 31: 100%|██| 7/7 [01:38<00:00, 14.01s/it]
+Epoch 31: Train Loss: -2.0261, Val Loss: 0.0067
+Epoch 32: 100%|██| 7/7 [01:36<00:00, 13.73s/it]
+Epoch 32: Train Loss: -2.0945, Val Loss: -0.0587
+Epoch 33: 100%|██| 7/7 [01:30<00:00, 12.99s/it]
+Epoch 33: Train Loss: -2.0866, Val Loss: -0.1155
+Epoch 34: 100%|██| 7/7 [01:34<00:00, 13.57s/it]
+Epoch 34: Train Loss: -2.1213, Val Loss: 0.0282
+Epoch 35: 100%|██| 7/7 [01:48<00:00, 15.56s/it]
+Epoch 35: Train Loss: -2.1390, Val Loss: 0.0139
+Epoch 36: 100%|██| 7/7 [01:11<00:00, 10.21s/it]
+Epoch 36: Train Loss: -2.2292, Val Loss: 0.1126
+Epoch 37: 100%|██| 7/7 [01:06<00:00,  9.43s/it]
+Epoch 37: Train Loss: -2.1515, Val Loss: 0.0734
+Epoch 38: 100%|██| 7/7 [01:05<00:00,  9.31s/it]
+Early stopping at epoch 38

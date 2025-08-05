@@ -1,0 +1,38 @@
+Downloading: "https://download.pytorch.org/models/vgg16-397923af.pth" to C:\Users\ADITYA/.cache\torch\hub\checkpoints\vgg16-397923af.pth
+100%|███████████████████████| 528M/528M [00:51<00:00, 10.8MB/s]
+Epoch 0:   0%|                           | 0/7 [00:00<?, ?it/s]C:\Users\ADITYA\AppData\Local\Programs\Python\Python313\Lib\site-packages\torch\utils\data\dataloader.py:665: UserWarning: 'pin_memory' argument is set as true but no accelerator is found, then device pinned memory won't be used.
+  warnings.warn(warn_msg)
+Epoch 0:   0%|                           | 0/7 [00:00<?, ?it/s]
+Traceback (most recent call last):
+  File "C:\Users\ADITYA\Desktop\Ml-assignment\train.py", line 315, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\ADITYA\Desktop\Ml-assignment\train.py", line 243, in main
+    for batch_idx, batch in enumerate(tqdm(train_loader, desc=f'Epoch {epoch}')):
+                            ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADITYA\AppData\Local\Programs\Python\Python313\Lib\site-packages\tqdm\std.py", line 1181, in __iter__
+    for obj in iterable:
+               ^^^^^^^^
+  File "C:\Users\ADITYA\AppData\Local\Programs\Python\Python313\Lib\site-packages\torch\utils\data\dataloader.py", line 493, in __iter__
+    return self._get_iterator()
+           ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\ADITYA\AppData\Local\Programs\Python\Python313\Lib\site-packages\torch\utils\data\dataloader.py", line 424, in _get_iterator
+    return _MultiProcessingDataLoaderIter(self)
+  File "C:\Users\ADITYA\AppData\Local\Programs\Python\Python313\Lib\site-packages\torch\utils\data\dataloader.py", line 1171, in __init__
+    w.start()
+    ~~~~~~~^^
+  File "C:\Users\ADITYA\AppData\Local\Programs\Python\Python313\Lib\multiprocessing\process.py", line 121, in start
+    self._popen = self._Popen(self)
+                  ~~~~~~~~~~~^^^^^^
+  File "C:\Users\ADITYA\AppData\Local\Programs\Python\Python313\Lib\multiprocessing\context.py", line 224, in _Popen
+    return _default_context.get_context().Process._Popen(process_obj)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\ADITYA\AppData\Local\Programs\Python\Python313\Lib\multiprocessing\context.py", line 337, in _Popen
+    return Popen(process_obj)
+  File "C:\Users\ADITYA\AppData\Local\Programs\Python\Python313\Lib\multiprocessing\popen_spawn_win32.py", line 97, in __init__
+    reduction.dump(process_obj, to_child)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADITYA\AppData\Local\Programs\Python\Python313\Lib\multiprocessing\reduction.py", line 60, in dump
+    ForkingPickler(file, protocol).dump(obj)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+AttributeError: Can't get local object 'PolygonColorDatasetWithAugmentation.__init__.<locals>.<lambda>'

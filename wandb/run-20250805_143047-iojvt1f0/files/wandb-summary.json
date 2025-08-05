@@ -1,0 +1,1 @@
+{"val_l1":1.1336148977279663,"_wandb":{"runtime":3462},"train_ssim":-9.319160870143346,"_timestamp":1.7543879109152033e+09,"val_loss":0.022202476859092712,"val_ssim":-2.411301612854004,"_runtime":3462,"train_loss":-2.12445490700858,"val_perceptual":0.8939276933670044,"_step":38,"train_perceptual":0.9445965375219073,"learning_rate":5e-05,"train_l1":0.9647482633590698,"epoch":38}

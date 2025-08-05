@@ -1,0 +1,24 @@
+{
+  "os": "Windows-11-10.0.26100-SP0",
+  "python": "CPython 3.13.1",
+  "startedAt": "2025-08-05T08:44:54.624951Z",
+  "program": "C:\\Users\\ADITYA\\Desktop\\Ml-assignment\\train.py",
+  "codePath": "train.py",
+  "codePathLocal": "train.py",
+  "email": "adityawork2004@gmail.com",
+  "root": "C:\\Users\\ADITYA\\Desktop\\Ml-assignment",
+  "host": "Kabootar",
+  "executable": "C:\\Users\\ADITYA\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+  "cpu_count": 4,
+  "cpu_count_logical": 8,
+  "disk": {
+    "/": {
+      "total": "511009148928",
+      "used": "277878288384"
+    }
+  },
+  "memory": {
+    "total": "8262488064"
+  },
+  "writerId": "c9mz57kxblm967fk5xqxws6gxclswkls"
+}
